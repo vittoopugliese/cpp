@@ -11,6 +11,10 @@ using namespace std;
 // equivalen a 0 días y 20 horas.
 
 int main() {
-    
+    int hs, dias, hsres;
+    cin >> hs;
+    dias = hs / 24;
+    hsres = hs % 24;
+    cout << dias << " " << hsres;
     return 0;
 }

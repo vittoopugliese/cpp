@@ -9,6 +9,11 @@ using namespace std;
 // equivalen a 0 día, 8 horas y 0 minutos.
 
 int main() {
-    
+    int min, dias, horas, minres;
+    cin >> min;
+    dias = (min / 60) / 24;
+    horas = (min / 60) % 24;
+    minres = min % 60;
+    cout << dias << " " << horas << " " << minres;
     return 0;
 }

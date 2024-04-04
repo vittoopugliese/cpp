@@ -17,6 +17,11 @@ using namespace std;
 
 
 int main() {
-    
+    int huevos, docenas, exed, total;
+    cin >> huevos;
+    docenas = huevos / 12;
+    exed = huevos % 12;
+    total = (docenas * 1000) + (exed * 120);
+    cout << total;
     return 0;
 }

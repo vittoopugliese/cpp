@@ -11,6 +11,10 @@ using namespace std;
 // equivalen a 0 horas y 50 minutos
 
 int main() {
-    
+    int min, hs, minres;
+    cin >> min;
+    hs = min / 60;
+    minres = min % 60;
+    cout << hs << " " << minres;
     return 0;
 }

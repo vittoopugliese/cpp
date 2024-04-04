@@ -9,6 +9,10 @@ using namespace std;
 // de la temperatura mínima.
 
 int main() {
-    
+    int tempmay, tempmin, amplitudtermica;
+    cin >> tempmay;
+    cin >> tempmin;
+    amplitudtermica = tempmay - tempmin;
+    cout << amplitudtermica;
     return 0;
 }

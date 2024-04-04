@@ -16,6 +16,10 @@ using namespace std;
 
 
 int main() {
-    
+    float impsindto, impcondto, porcdto;
+    cin >> impsindto;
+    cin >> impcondto;
+    porcdto = (((impcondto / impsindto) * 100) - 100) * -1;
+    cout << porcdto;
     return 0;
 }
