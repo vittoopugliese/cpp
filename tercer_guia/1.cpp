@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// https://docs.google.com/document/d/1HNJCARY6ifEJPjzmlOyEgcEam6dZE67IW5emWrul4cc/edit
+// Hacer un programa para mostrar por pantalla los números del 1 al 10.
+// Importante: El programa no tiene ningún ingreso de datos.
 
 int main() {
 
