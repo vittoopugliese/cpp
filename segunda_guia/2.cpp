@@ -5,6 +5,15 @@ using namespace std;
 // pantalla con un cartel aclaratorio si el primer número es múltiplo del segundo. 
 
 int main() {
+    int n1, n2;
+    cin >> n1;
+    cin >> n2;
+
+    if(n1 % n2 == 0){
+        cout << "Si es multiplo";
+    } else {
+        cout << "nop es multiplo";
+    }
     
     return 0;
 }

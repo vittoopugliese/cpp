@@ -11,6 +11,19 @@ using namespace std;
 // diferencia absoluta siempre es un valor positivo.
 
 int main() {
-    
+    int a, b, dif;
+
+    cin >> a;
+    cin >> b;
+
+    if(a > 0){
+        dif = a - b;
+    } else {
+        dif = b - a;
+    }
+
+    if(dif < 0) dif = dif * -1;
+
+    cout << dif;
     return 0;
 }
