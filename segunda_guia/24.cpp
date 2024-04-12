@@ -14,9 +14,25 @@ using namespace std;
 // resultado con fracción. Por ejemplo si mes=7 y usted calcula trimestre=7/3 el 
 // resultado que obtendrá es trimestre= 2.33, lo cual es incorrecto.
 
-
-
 int main() {
+    int numeroMes, trimestre;
+    cout << "Numero del mes que queres saber el trimesterrr (del 1 al 12): ";
+    cin >> numeroMes;
+
+    if(numeroMes < 0 || numeroMes > 12) {
+        cout << "No entendes una consigna";
+        return 0;
+    }
+
+    if(numeroMes % 3 != 0){
+        numeroMes = numeroMes + 1;
+        if(numeroMes % 3 != 0){
+            numeroMes = numeroMes + 1;
+        }
+    } 
     
+    trimestre = numeroMes / 3;
+    cout << "El trimestre del mes " << numeroMes << " es el trimestre " << trimestre << endl; 
+    main();
     return 0;
 }
